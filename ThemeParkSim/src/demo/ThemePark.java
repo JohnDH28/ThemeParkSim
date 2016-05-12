@@ -5,7 +5,7 @@ public class ThemePark {
 	private static int numPeople;
 	private static int numOfDest;
 	private static int priceCoef;	
-	ArrayList<Person> people = new ArrayList<Person>();
+	ArrayList<Person> peopleInPark = new ArrayList<Person>();
 	//Array list of shops/vendors/rides (activities)
 	
 	public ThemePark(ArrayList<Person> people){
