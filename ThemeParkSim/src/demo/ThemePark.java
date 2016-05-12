@@ -3,8 +3,8 @@ import java.util.ArrayList;
 
 public class ThemePark {
 	private static int numPeople;
-	private static int numRides;
-	private static int numShops;	
+	private static int numOfDest;
+	private static int priceCoef;	
 	ArrayList<Person> people = new ArrayList<Person>();
 	//Array list of shops/vendors/rides (activities)
 	
@@ -20,11 +20,11 @@ public class ThemePark {
 		return numPeople;
 	}
 
-	public static int getNumRides() {
-		return numRides;
+	public static int getNumOfDest() {
+		return numOfDest;
 	}
 
-	public static int getNumShops() {
-		return numShops;
+	public static int getPriceCoef() {
+		return priceCoef;
 	}
 }
