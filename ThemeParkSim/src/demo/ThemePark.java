@@ -26,6 +26,20 @@ public class ThemePark {
 	/*
 	 * 
 	 * ARIKS SHIT
+	 * 
+	 */
+	public static generateDestinations(){
+		double numOfDestinations = numOfPeople/10;
+		int numOfLavatories = (int) (numOfDestinations*.2);
+		int numOfRides = (int)(numOfDestinations*.4);
+		int numOfKiosks = (int)(numOfDestinations*.2);
+		int numOfVendors = (int)(numOfDestinations*.2);
+	}
+
+	/*
+	 * 
+	 * 
+	 * GETTER / SETTER
 	 */
 	public static int getNumPeople() {
 		return numPeople;
